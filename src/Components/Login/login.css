@@ -1,0 +1,54 @@
+header{
+    background-color: black;
+}
+
+.container{
+    background: linear-gradient(to bottom, #191919, #000);
+    min-height: 100vh;
+}
+
+button:hover {
+    background-color: #1ed760;
+  }
+
+
+  .form-check.form-switch {
+ 
+    margin-bottom: 20px;
+  }
+  
+  .form-check-label {
+    font-weight: 600;
+  }
+  
+  .form-check-input {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 5px;
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .form-check-input:checked {
+    background-color: #1db954;
+  }
+  
+  .form-check-input::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+  
+  .form-check-input:checked::before {
+    transform: translateX(10px);
+  }
+  
+  
