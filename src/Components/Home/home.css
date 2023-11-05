@@ -1,0 +1,43 @@
+/* Define a CSS animation */
+@keyframes textAnimation {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(-5px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the "Focus" text when hovered */
+  .text-animation:hover {
+    animation: textAnimation 1s ease infinite;
+  }
+  
+  /* Add this class to your "Focus" text element in your component */
+/* Define a CSS animation for opening a file */
+@keyframes openFileAnimation {
+    0% {
+      transform: scaleX(1) rotate(0deg);
+    }
+    50% {
+      transform: scaleX(1.1) rotate(45deg);
+    }
+    100% {
+      transform: scaleX(1) rotate(0deg);
+    }
+  }
+  
+  /* Apply the animation to the "Show All" text when hovered */
+  .open-file-animation:hover {
+    animation: openFileAnimation 0.5s ease-in-out;
+    transform-origin: center;
+    display: inline-block;
+    transition: transform 0.1s ease-in-out;
+  }
+    

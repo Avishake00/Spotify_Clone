@@ -1,5 +1,25 @@
-.signup_bar{
-    background:linear-gradient(90deg,#af2896,#509bf5) ;
+.signup_bar {
+    background: linear-gradient(90deg, #af2896, #509bf5);
     width: 100%;
-    left: 0;
-}
+    margin: 0 auto; /* Center the bar horizontally */
+    left:2px;
+    right: 2px;
+    z-index: 999;
+    
+  }
+  
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .close-button span {
+    font-size: 20px;
+  }
+  

@@ -11,7 +11,7 @@ const Sidebar = () => {
   const sidebarHeight = isMobileView ? "100%" : "90%";
 
   return (
-    <div className="w-1/5 sidebar" style={{ height: sidebarHeight }}>
+    <div className="w-1/4 sidebar" style={{ height: sidebarHeight }}>
       
       {/* Home and Search in sidebar */}
       <div className="nav secondary_bg rounded-lg p-6">
@@ -85,8 +85,10 @@ const Sidebar = () => {
         <span className="text-white font-bold">English</span>
       </button>
 
-    
+    <div >
       <Signup />
+    </div>
+      
     </div>
   );
 };

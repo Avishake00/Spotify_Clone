@@ -4,11 +4,11 @@
   }
   
   .Your_libraries_component::-webkit-scrollbar {
-    width: 8px; /* Set the width of the scrollbar */
+    width: 10px; /* Set the width of the scrollbar */
     background-color: transparent; /* Make the scrollbar track transparent */
   }
   
   .Your_libraries_component::-webkit-scrollbar-thumb {
-    background-color: grey; /* Color of the thumb */
+    background-color: rgba(128, 128, 128, 0.396); /* Color of the thumb */
     border-radius: 4px; /* Rounded thumb */
   }

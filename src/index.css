@@ -18,7 +18,9 @@ body{
 
 :root{
   --sercondary_bg:#121212;
-  --tertiary_bg:#242424;
+  --card_sec_bg:#121212;
+  --tertiary_bg:#1e1d1d;
+  --card_bg:#262525;
 }
 
 .secondary_bg{
