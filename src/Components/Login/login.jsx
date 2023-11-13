@@ -73,7 +73,7 @@ const Login = () => {
 					</form>
 
 					<Link
-						to="/reset-password"
+						to="/password/reset"
 						className="hover:text-green-500 font-semibold text-center underline block mt-4"
 					>
 						Forgot Your Password?
